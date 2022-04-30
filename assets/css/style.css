@@ -1,20 +1,31 @@
 html,
+#holiday {
+    width: 100%;
+    padding: 1px;
+    background-color: rgb(225, 225, 93);
+    color: rgb(49, 23, 73);
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
 body {
     margin: 0;
     padding: 0;
     background-color: beige;
     text-align: center;
 }
-
+.currentpage {
+    font-weight: 200;
+}
 h1,
 h2 {
     color: darkred;
 }
 
-h3, 
 p,
 li {
     color: green;
+    
 }
 
 img {
@@ -56,7 +67,7 @@ nav a:hover {
 #banner {
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: black;
 }
 
 #banner img {
